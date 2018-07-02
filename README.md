@@ -23,7 +23,7 @@ con.send_hp19xx('display version', show=True) # This print version device
 ```
 from hp19xx_connect import ConnectHP19xx  
 
-con = ConnectHP19xx('192.168.1.1', 'cisco', 'cisco', '512900')  
+con = ConnectHP19xx('192.168.1.1', 'admin', 'admin', '512900')  
 if con.get_status_connect is False:  
     exit(0)  
 con.send_hp19xx('sys')  
