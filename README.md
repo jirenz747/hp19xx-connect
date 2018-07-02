@@ -11,7 +11,7 @@ pip install pexpect
 How use it:  
 
 #import this file is your project  
-from hp19xx_connect import ConnectHP19xx 
+from hp19xx_connect import ConnectHP19xx  
 #Connecting devices [ip, login, password, factory_password]  
 con = ConnectHP19xx('192.168.1.1', 'admin', 'admin', '512900')  
 
